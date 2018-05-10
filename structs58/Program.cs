@@ -10,6 +10,11 @@ namespace structs58
     {
         static void Main(string[] args)
         {
+            Number myNumber = new Number();
+            myNumber.Amount = 10;
+
+            Console.WriteLine(myNumber.Amount);
+            Console.ReadLine();
         }
     }
 }
